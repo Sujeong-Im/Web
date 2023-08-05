@@ -32,7 +32,7 @@
 
 <body>
     <?php
-    $connect = mysqli_connect('localhost', 'sio2', 'Sio2assword$', 'log_db') or die("connect failed");
+    $connect = mysqli_connect('localhost', 'sio2', 'dancingCat42', 'log_db') or die("connect failed");
     $number = $_GET['number'];
     $query = "select title, content, date, id from board where number = $number";
     $result = $connect->query($query);

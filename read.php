@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Read Posts</title>
     <meta charset='utf-8'>
     <style>
     .read_table {
@@ -91,7 +92,7 @@
 </head>
 <body>
     <?php
-    $connect = mysqli_connect('localhost', 'sio2', 'Sio2password$', 'log_db');
+    $connect = mysqli_connect('localhost', 'sio2', 'dancingCat42', 'log_db');
     $number = $_GET['number'];
     $cnumber = $_GET['comment_number'];
     session_start();

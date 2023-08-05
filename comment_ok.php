@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "sio2", "Sio2password$", "log_db") or die("Connection Failed");
+$connect = mysqli_connect("localhost", "sio2", "dancingCat42", "log_db") or die("Connection Failed");
 
 $id = $_POST['username'];
 $number = $_POST['board_number'];

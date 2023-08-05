@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Sujeong's Home</title>
+        <title>Board Index</title>
         <style>
             #image {
                 display: flex; 
@@ -63,7 +63,7 @@
     </head>
     <body>          
         <?php
-          $connect = mysqli_connect('localhost', 'sio2', 'Sio2password$', 'log_db') or die("connect failed");
+          $connect = mysqli_connect('localhost', 'sio2', 'dancingCat42', 'log_db') or die("connect failed");
           $result = mysqli_query($connect, $query);
           $total = mysqli_num_rows($result);
 	      session_start();

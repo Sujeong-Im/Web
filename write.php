@@ -3,6 +3,7 @@
 
 <head>
     <meta charset='utf-8'>
+    <title>Create Posts</title>
     <style>
         table.table2 {
             border-collapse: separate;

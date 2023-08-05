@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "sio2", "Sio2password$", "log_db") or die("fail");
+$connect = mysqli_connect("localhost", "sio2", "dancingCat42", "log_db") or die("fail");
 
 $id = $_POST['name'];
 $title = $_POST['title'];

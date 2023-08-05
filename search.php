@@ -56,7 +56,7 @@
 </head>
 <body>
     <?php
-        $connect = mysqli_connect('localhost', 'sio2', 'Sio2password$', 'log_db') or die("connect failed");
+        $connect = mysqli_connect('localhost', 'sio2', 'dancingCat42', 'log_db') or die("connect failed");
         $result = mysqli_query($connect, $query);
         $total = mysqli_num_rows($result);
 	    session_start();
@@ -106,7 +106,7 @@
         if (isset($_GET['query'])) {
             $searchQuery = $_GET['query'];
 
-            $connect = mysqli_connect('localhost', 'sio2', 'Sio2password$', 'log_db') or die("connect failed");
+            $connect = mysqli_connect('localhost', 'sio2', 'dancingCat42', 'log_db') or die("connect failed");
             $sql = "SELECT * FROM board WHERE title LIKE '%$searchQuery%' OR id LIKE '%$searchQuery%' ORDER BY number " . $order;
             $result = $connect->query($sql);
 

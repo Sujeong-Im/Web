@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>EDIT COMMENTS</title>
     <style>
     .container {
         display: flex;
@@ -16,7 +17,7 @@
 </head>
 <body>
 <?php
-    $connect = mysqli_connect('localhost', 'sio2', 'Sio2password$', 'log_db');
+    $connect = mysqli_connect('localhost', 'sio2', 'dancingCat42', 'log_db');
     $number = $_GET['number'];
     $cnumber = $_GET['comment_number'];
 

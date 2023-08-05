@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$connect = mysqli_connect("127.0.0.1", "root", "newPassword123$", "log_db") or die("connect failed");
+$connect = mysqli_connect("localhost", "sio2", "dancingCat42", "log_db") or die("connect failed");
 $id = $_POST['id'];
 $pw = $_POST['pw'];
 
