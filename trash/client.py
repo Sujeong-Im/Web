@@ -1,6 +1,3 @@
-###
-Filename: client.py
-###
 import pymysql, requests, os, random, string, time
 
 class Client:
@@ -64,7 +61,7 @@ class Client:
 
 
 if __name__ == "__main__":
-    client = Client("YOURH@URGLASS!", "sio2", "dancingCat42", "20.249.19.57:1010",)
+    client = Client("YOURH@URGLASS!", "sio2", "dancingCat42", "cc.kknock.org/app",)
     # 서버의 crontab 이후에 클라이언트의 crontab이 이루어지도록 설정
     time.sleep(30)
     client.get_flag()

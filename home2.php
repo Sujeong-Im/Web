@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Board Index</title>
+        <title>Sujeong's Home</title>
         <style>
             #image {
                 display: flex; 
@@ -97,8 +97,8 @@
             </button>
 
             <form action="search.php" method="get" class="searchForm">
-                <input type="text" name="query" placeholder="제목 또는 작성자로 검색">&nbsp;&nbsp;
-                <button type="submit"><strong>검색</strong></button>
+                <input type="text" name="query" placeholder="제목 또는 작성자로 검색">
+                <button type="submit">검색</button>
             </form>
         </div><br>
 
